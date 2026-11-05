@@ -30,3 +30,6 @@ jobs:
 
       - name: Run Jest Tests
         run: npm test
+      - name: Run NPM Audit
+        run: npm audit --audit-level=high
+
